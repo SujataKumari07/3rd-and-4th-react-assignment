@@ -1,35 +1,31 @@
-/* App.css */
 
-/* Global styles for the entire application */
-
-/* Reset default margin and padding */
 body, html {
     margin: 0;
     padding: 0;
   }
   
-  /* Set default font family and size */
+ 
   body {
     font-family: Arial, sans-serif;
     font-size: 16px;
     line-height: 1.6;
-    background-color: #ffffff; /* Default background color for the entire application */
+    background-color: #ffffff; 
   }
   
-  /* Styling for the main application container */
+  
   .App {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 100vh; /* Minimum height of viewport */
-    transition: background-color 0.3s ease; /* Smooth transition for background color change */
+    min-height: 100vh; 
+    transition: background-color 0.3s ease; 
   }
   
-  /* Header styles */
+ 
   .header {
-    background-color: #007bff; /* Header background color */
-    color: #ffffff; /* Header text color */
+    background-color: #007bff; 
+    color: #ffffff; 
     padding: 10px 20px;
     width: 100%;
     text-align: center;
@@ -40,21 +36,21 @@ body, html {
     font-size: 24px;
   }
   
-  /* Main content styles */
+ 
   .main-content {
-    width: 80%; /* Width of the main content */
-    max-width: 1200px; /* Maximum width of the main content */
+    width: 80%;
+    max-width: 1200px; 
     margin-top: 20px;
   }
   
-  /* Footer styles */
+
   .footer {
-    background-color: #f0f0f0; /* Footer background color */
-    color: #333; /* Footer text color */
+    background-color: #f0f0f0; 
+    color: #333; 
     padding: 10px 0;
     width: 100%;
     text-align: center;
-    position: fixed; /* Fix footer to the bottom of the viewport */
+    position: fixed; 
     bottom: 0;
   }
   

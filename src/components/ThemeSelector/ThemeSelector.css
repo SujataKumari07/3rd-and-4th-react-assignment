@@ -1,4 +1,4 @@
-/* ThemeSelector.css */
+
 .theme-selector {
     background-color: #f0f0f0;
     padding: 20px;
@@ -41,7 +41,7 @@
     color: #ffffff;
   }
   
-  /* Adjusted styles for mobile responsiveness */
+
   @media (max-width: 768px) {
     .themes {
       flex-direction: column;

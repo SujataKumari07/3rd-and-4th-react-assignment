@@ -2,7 +2,7 @@ import React from 'react';
 import './KanbanBoard.css';
 
 function KanbanBoard() {
-  // Example data for tasks in different stages
+
   const kanbanData = {
     todo: [
       { id: 1, title: 'Market Research', description: 'Conduct market analysis for new product line.' },

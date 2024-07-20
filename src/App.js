@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import ThemeSelector from './components/ThemeSelector/ThemeSelector';
 import Dashboard from './components/Dashboard/Dashboard';
-import './App.css'; // Import your global styles here
-
+import './App.css'; 
 function App() {
   const [selectedTheme, setSelectedTheme] = useState({ id: 1, name: 'Light Theme', primaryColor: '#BEBEBE' });
 
@@ -13,7 +12,7 @@ function App() {
 
   const applyTheme = (theme) => {
     document.documentElement.style.setProperty('--primary-color', theme.primaryColor);
-    // Apply other theme-specific styles or classes to different parts of your application
+   
   };
 
   return (

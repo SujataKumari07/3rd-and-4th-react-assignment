@@ -18,8 +18,8 @@ function BarChart() {
   };
 
   const options = {
-    maintainAspectRatio: false, // Disable aspect ratio
-    responsive: true, // Enable responsiveness
+    maintainAspectRatio: false, 
+    responsive: true, 
     scales: {
       y: {
         beginAtZero: true,

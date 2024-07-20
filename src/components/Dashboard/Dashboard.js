@@ -1,8 +1,8 @@
 import React from 'react';
 import './Dashboard.css';
 import Table from '../Table/Table';
-import LineChart from '../Charts/LineChart'; // Adjusted import for LineChart
-import BarChart from '../Charts/BarChart'; // Adjusted import for BarChart
+import LineChart from '../Charts/LineChart'; 
+import BarChart from '../Charts/BarChart'; 
 import Calendar from '../Calendar/Calendar';
 import KanbanBoard from '../KanbanBoard/KanbanBoard';
 

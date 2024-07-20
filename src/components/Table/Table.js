@@ -2,7 +2,7 @@ import React from 'react';
 import './Table.css';
 
 function Table() {
-  // Example data for the table
+  
   const tableData = [
     { id: 1, name: 'Sujata Kumari', age: 30, city: 'Kolkata' },
     { id: 2, name: 'Shambhavi Saloni', age: 25, city: 'Ranchi' },

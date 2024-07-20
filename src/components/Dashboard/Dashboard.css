@@ -1,4 +1,4 @@
-/* Dashboard.css */
+
 .dashboard {
     background-color: #EED9C4;
     padding: 20px;
@@ -7,7 +7,7 @@
     margin-bottom: 20px;
   }
   
-/* Example CSS */
+
 
 .section {
     background-color: #F5F5DC;
@@ -15,17 +15,17 @@
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
-    max-width: 100%; /* Adjust maximum width as needed */
-    overflow: hidden; /* Prevent overflow */
+    max-width: 100%; 
+    overflow: hidden; 
   }
   
   .section h2 {
     font-size: 24px;
     color: #333;
     margin-bottom: 10px;
-    overflow: hidden; /* Ensure heading text doesn't overflow */
-    text-overflow: ellipsis; /* Add ellipsis if the text overflows */
-    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    white-space: nowrap; 
   }
   
   
